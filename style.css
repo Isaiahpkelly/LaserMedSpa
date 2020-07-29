@@ -1,0 +1,331 @@
+* {
+    font-weight: URW Chancery L, cursive;
+}
+
+.addressHeader {
+    text-align: center;
+    margin-top: 3%;
+
+    color: rgba(128, 128, 128, 0.897);
+    font-weight: 500;
+    font-size: 1.3vw;
+}
+.businessName {
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 6%;
+    color: rgba(128, 128, 128, 0.897);
+}
+.colum1{
+    background-color: rgba(143, 143, 145, 0.171);
+    
+}
+.colum2{
+    background-color: rgba(143, 143, 145, 0.39);
+    
+}
+.colum1{
+    background-color: rgba(143, 143, 145, 0.171);
+    
+}
+
+
+.divider {
+    width: 100%;
+    margin-top: 5%;
+    border-top: 1px solid gray;
+
+}
+
+.divider2 {
+    width: 70%;
+    margin-top: 5%;
+    border-top: 1px solid gray;
+    margin-left: 15%;
+    
+
+}
+
+
+img.topLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width:200px;
+    
+}
+input#search-bar {
+    /* margin: 0 auto; */
+    width: 100%;
+    height: 45px;
+    padding-left: 7%;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    margin-top: 5%;
+
+
+
+}
+.mainBodyCard {
+        
+            height: 100%;
+        
+            margin-top: 5%;
+            margin-left: 9%;
+            margin-right: 9%;
+        }
+
+        
+.midPageColumnsSections,
+        .line__2 {
+            margin-top: 4%;
+        }
+        
+.nav {
+            margin-top: 8%;
+        
+            list-style-type: none;
+            text-align: center;
+            /* margin: 0;
+            padding: 0; */
+        }
+        
+.nav li {
+            display: inline-block;
+            font-size: 15px;
+            padding: 10px;
+            text-align: center;
+        }
+
+.newH2 {
+            font-size: 3vw;
+            text-align: center;
+            margin-top: 6%;
+            color: rgba(128, 128, 128, 0.664);
+            ;
+        }
+        
+.newH3 {
+            font-size: 2vw;
+            text-align: center;
+            margin-top: 6%;
+            color: rgba(128, 128, 128, 0.664);
+            ;
+        }       
+.search-container {
+            width: 65%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+.topLogo {
+        margin-top: 9%;
+}
+
+
+.search-icon {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    top: -55px;
+    right: 5px;
+    font-size: 1vw;
+
+}
+
+.search-icon:hover {
+    transform: scale(1.15);
+}
+
+
+
+/*img {
+    vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+
+.carousel-item {
+    height: 500px;
+}
+
+
+.weTreatText,
+.servicesText {
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+
+.introText{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.897);
+    
+}
+
+.midPageColumns{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.midPageImage1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+    
+}
+
+p {
+    text-align: center;
+}
+
+.videoLms {
+    margin-top: 5%;
+}
+
+.instagramSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.instagramSectionA {
+    display: inline-block;
+    margin-bottom: 8px;
+    width: calc(50% - 4px);
+    margin-right: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.instagramSectionA:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+    .instagramSectionA {
+        width: calc(25% - 6px);
+    }
+
+    .instagramSectionA:nth-of-type(2n) {
+        margin-right: 8px;
+    }
+
+    .instagramSectionA:nth-of-type(4n) {
+        margin-right: 0;
+    }
+}
+
+.instagramSectionA:hover img {
+    transform: scale(1.15);
+}
+
+figure {
+    margin: 0;
+    overflow: hidden;
+}
+
+figcaption {
+    margin-top: 15px;
+}
+
+.instagramSectionImages {
+    border: none;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background: #ccc;
+    transition: transform .2s ease-in-out;
+}
+
+.p a {
+    display: inline;
+    font-size: 13px;
+    margin: 0;
+    text-decoration: underline;
+    color: rgba(128, 128, 128, 0.897);
+
+}
+a{
+    color: rgba(128, 128, 128, 0.979); 
+}
+a:hover{
+    color: black; 
+    text-decoration: underline;
+}
+
+.p {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 100px;
+}
+
+.contactUsSection,
+.rightColumnContact {
+    margin-top: 5%;
+
+}
+
+.rightColumnContact h2 {
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 6%;
+    color: rgba(128, 128, 128, 0.664);
+}
+
+
+
+
+footer{
+    text-align: center;
+    margin-top: 10%;
+}
+
+footer::after{
+    content: "Isaiah Kelly";
+    color: gray;
+    font-weight: bold;
+}
